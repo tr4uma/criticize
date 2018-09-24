@@ -1,7 +1,7 @@
 {
-  "name": "marcodagrada",
+  "name": "vue-express-heroku-boilerplate",
   "version": "1.0.0",
-  "description": "Marco Dagrada's Online Portfolio",
+  "description": "Vue + express + heroku boilerplate",
   "author": "Marco Dagrada <dagrada.marco@hotmail.it>",
   "private": true,
   "scripts": {

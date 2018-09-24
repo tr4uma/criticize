@@ -1,6 +1,6 @@
-# marcodagrada
+# Vue + Express + Heroku boilerplate
 
-> Marco Dagrada's Online Portfolio
+> Vue + Express + Heroku boilerplate
 
 ## Build Setup
 
