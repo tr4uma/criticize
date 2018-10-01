@@ -12,7 +12,7 @@
 export default {
   name: 'MainPage',
   components: {}
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

@@ -1,15 +1,15 @@
 <template>
   <div class="criticize">
     <Title />
-    <Profile :account="target"/>
+    <Profile :account="target" />
     <Shitpost />
   </div>
 </template>
 
 <script>
-import Profile from './Profile';
-import Shitpost from './Shitpost';
-import Title from './Title';
+import Profile from './Profile'
+import Shitpost from './Shitpost'
+import Title from './Title'
 export default {
   name: 'Criticize',
   components: {
@@ -17,21 +17,21 @@ export default {
     Profile,
     Shitpost
   },
-  data() {
+  data () {
     return {
       target: {}
-    };
+    }
   },
-  mounted() {
-    console.log(this.$route.params);
+  mounted () {
+    console.log(this.$route.params)
 
     // TODO: Fetch from server
     this.target = {
       name: 'Deloitte',
       profilepic: 'www.google.com'
-    };
+    }
   }
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

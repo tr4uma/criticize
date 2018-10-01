@@ -5,18 +5,18 @@
 </template>
 
 <script>
-import MainPage from "@/components/MainPage";
+import MainPage from '@/components/MainPage'
 export default {
-  name: "App",
+  name: 'App',
   components: {
     MainPage
   }
-};
+}
 </script>
 
 <style>
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #264348;

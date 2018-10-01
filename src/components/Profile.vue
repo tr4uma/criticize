@@ -3,10 +3,10 @@
     <div class="profilepic">
       <img src="account.profilepic" />
     </div>
-    <div class="profileinfo">
-      {{account.name}}
+      <div class="profileinfo">
+        {{ account.name }}
+      </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -15,13 +15,11 @@ export default {
   props: {
     account: Object
   },
-  data() {
-    return {};
+  data () {
+    return {}
   }
-};
+}
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .profile {
   padding: 2rem;

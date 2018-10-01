@@ -5,15 +5,15 @@
 </template>
 
 <script>
-import Criticize from './Criticize';
-import Title from './Title';
+import Criticize from './Criticize'
+import Title from './Title'
 export default {
   name: 'MainPage',
   components: {
     Criticize,
     Title
   }
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
