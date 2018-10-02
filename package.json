@@ -6,8 +6,8 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "dev-server": "nodemon index.js",
-    "start": "node server.js",
+    "dev-server": "nodemon ./server/server.js",
+    "start": "node ./server/server.js",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
     "heroku-postbuild": "npm run build"
