@@ -18,6 +18,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }))
 
+console.log(__dirname)
 app.use(serveStatic(path.join(__dirname, '/dist')))
 
 app.use((err, request, response, next) => {
