@@ -13,6 +13,7 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "nodemon": "^1.18.4",
     "path": "^0.12.7",
