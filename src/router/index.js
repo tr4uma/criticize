@@ -16,6 +16,10 @@ export default new Router({
       path: '/criticize/:id',
       name: 'Criticize!',
       component: Criticize
+    },
+    {
+      path: '*',
+      redirect: '/'
     }
   ]
 })

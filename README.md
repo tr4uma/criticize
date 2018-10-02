@@ -1,6 +1,6 @@
-# Vue + Express + Heroku boilerplate
+# Criticize!
 
-> Vue + Express + Heroku boilerplate
+> Little Project aimed to allow people criticize stuff being anonymous.
 
 ## Build Setup
 
@@ -19,3 +19,12 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## Heroku configuration
+
+### Environment Variables
+We want to compile and build Vue's /dist folder directly onto the server, so we need to set
+
+``` bash
+NPM_CONFIG_PRODUCTION = false
+```
