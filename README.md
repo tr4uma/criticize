@@ -1,5 +1,7 @@
 # Criticize!
 
+[You can find it here](https://criticize.herokuapp.com)
+
 > Little Project aimed to allow people criticize stuff being anonymous.
 
 ## Build Setup
